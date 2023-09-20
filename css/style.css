@@ -105,3 +105,62 @@ body {
 }
 
 /*header end*/
+
+/*hero start*/
+#hero {
+    background: #FFFFFF;
+    padding: 60px 0;
+}
+
+.hero-text h1 {
+    width: 400px;
+    color: #22343D;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.hero-text p {
+    color: #22343D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 458px;
+    padding: 18px 0 45px 0;
+}
+
+.hero-btn button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    background: #02897A;
+    padding: 15px 40px;
+}
+
+.hero-btn a {
+    color: #02897A;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.hero-btn a ion-icon {
+    font-size: 25px;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*hero end*/
