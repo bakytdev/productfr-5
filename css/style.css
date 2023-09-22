@@ -22,13 +22,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.dark{
+.dark {
     background: #1F2E35;
     color: white;
     transition: .7s linear;
 }
 
-.white{
+.white {
     transition: .7s linear;
 }
 
@@ -42,7 +42,7 @@ body {
     backdrop-filter: blur(10px);
 }
 
-.dark > #header{
+.dark > #header {
     box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.49);
 }
 
@@ -68,7 +68,7 @@ body {
     padding-left: 16px;
 }
 
-.dark .header-logo h1{
+.dark .header-logo h1 {
     color: white;
 }
 
@@ -80,7 +80,7 @@ body {
     transition: .4s;
 }
 
-.dark .header-nav a{
+.dark .header-nav a {
     color: white;
 }
 
@@ -99,7 +99,7 @@ body {
     background: transparent;
 }
 
-.dark .header-btn-one{
+.dark .header-btn-one {
     color: white;
 }
 
@@ -125,7 +125,7 @@ body {
     justify-content: center;
 }
 
-.dark .header-btn-three{
+.dark .header-btn-three {
     rotate: 180deg;
     background: #F3F3F3;
 }
@@ -150,7 +150,7 @@ body {
     line-height: 60px;
 }
 
-.dark .hero-text h1{
+.dark .hero-text h1 {
     color: white;
 }
 
@@ -163,7 +163,7 @@ body {
     padding: 18px 0 45px 0;
 }
 
-.dark .hero-text p{
+.dark .hero-text p {
     color: white;
 }
 
@@ -203,3 +203,119 @@ body {
 
 /*hero end*/
 
+/*product start*/
+#product {
+    background: url("../img/bg.png") no-repeat bottom/cover;
+    min-height: 60vh;
+    padding: 50px 0;
+}
+
+.product h1 {
+    color: #22343D;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.dark .product h1 {
+    color: white;
+}
+
+.product-block h3 {
+    color: #22343D;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0 0 13px 0;
+}
+
+.dark .product-block h3 {
+    color: white;
+}
+
+.product-block p {
+    width: 240px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.dark .product-block p {
+    color: white;
+}
+
+.product-general {
+    padding: 66px 0 34px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.product button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    background: #02897A;
+    padding: 15px 25px;
+}
+
+/*product end*/
+
+
+/*management start*/
+#management {
+    padding: 170px 0;
+}
+
+.management-text h3 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dark .management-text h3 {
+    color: white;
+}
+
+.management-text h1 {
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 8px 0 23px 0;
+}
+
+.dark .management-text h1 {
+    color: white;
+}
+
+.management-text p {
+    width: 486px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.dark .management-text p {
+    color: white;
+}
+
+.management-text h4 {
+    padding: 30px 0 12px 0;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dark .management-text h4 {
+    color: white;
+}
+
+.management {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*management end*/
