@@ -634,3 +634,132 @@ body {
 }
 
 /*contents end*/
+
+
+/*table start*/
+#table {
+    padding: 150px 0;
+}
+
+.table h1 {
+    text-align: center;
+    color: #22343D;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.dark .table h1,
+.dark .table p {
+    color: #FFFFFF;
+}
+
+.table p {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 8px 0 50px 0;
+}
+
+.table-block {
+    width: 322px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    height: 456px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: .5s;
+}
+
+.table-block:hover {
+    background: #02897A;
+}
+
+.table-block:hover > h2 {
+    color: white;
+}
+
+.table-block:hover > h6 {
+    color: white;
+}
+
+.table-block:hover > h4 {
+    color: white;
+}
+
+.table-block:hover > button {
+    color: #02897A;
+    background: #FFFFFF;
+}
+
+.table-block:hover > .table-block-text h3 {
+    color: white;
+}
+
+.table-block:hover > .table-block-text div h5,
+.table-block:hover > .table-block-text div span {
+    color: white;
+}
+
+.table-block h2 {
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.table-block h6 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.table-block-text h3 {
+    color: #02897A;
+    text-align: center;
+    font-size: 76px;
+    font-weight: 700;
+    padding-right: 8px;
+}
+
+.table-block-text div h5 {
+    color: #02897A;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.table-block-text div span {
+    color: #AFAFAF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.table-block-text {
+    display: flex;
+    align-items: center;
+}
+
+.table-block h4 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.table-block button {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #02897A;
+    padding: 11px 18px;
+}
+
+.table-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*table end*/
