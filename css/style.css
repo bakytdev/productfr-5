@@ -763,3 +763,132 @@ body {
 }
 
 /*table end*/
+
+/*say start*/
+#say {
+    padding: 100px 0;
+}
+
+.say h1 {
+    color: #22343D;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.dark .say h1 {
+    color: white;
+}
+
+.say p {
+    color: #22343D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 8px 0 30px 0;
+}
+
+.dark .say p {
+    color: white;
+}
+
+.say-block {
+    width: 327px;
+    height: 236px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background: rgba(255, 255, 255, 0.71);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.say-stars ion-icon {
+    color: #F3CD03;
+    font-size: 20px;
+}
+
+.say-block h6 {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 90%;
+    padding: 16px 0;
+}
+
+.say-users {
+    display: flex;
+    align-items: center;
+}
+
+.say-users-text h4 {
+    color: #02897A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.say-users-text h5 {
+    color: #252B42;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.say-users-text {
+    padding-left: 14px;
+}
+
+
+.say-general {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*say end*/
+
+/*join start*/
+#join {
+    padding: 50px 0;
+}
+
+.join-block {
+    height: 345px;
+    width: 85%;
+    border-radius: 32px;
+    background: #02897A;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.join-block-text h1 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 151.4%;
+    width: 510px;
+    padding-bottom: 50px;
+}
+
+.join-block-text button {
+    color: #02897A;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 15px 30px;
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+}
+
+.join-block-text{
+    padding-left: 20px;
+}
+
+/*join end*/
