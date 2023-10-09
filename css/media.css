@@ -59,6 +59,11 @@
 }
 
 @media (max-width: 992px) {
+
+    .burger-menu {
+        display: block;
+    }
+
     .header-nav a,
     .header-btn-one,
     .header-btn-two,

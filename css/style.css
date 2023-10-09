@@ -32,6 +32,92 @@ body {
     transition: .7s linear;
 }
 
+/*media start*/
+
+.burger-menu {
+    display: none;
+}
+
+#menu-toggle {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.menu-btn {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    cursor: pointer;
+    z-index: 1;
+    background: url("https://picua.org/images/2020/04/10/a6ec82ea250d3bc9229b1c8754f95484.png") no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-color: gray;
+}
+
+#menu-toggle:checked ~ .menu-btn {
+    background: url("https://picua.org/images/2020/04/10/c797684675d60b6946b7927ea26d8718.png") no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-color: white;
+}
+
+#menu-toggle:checked ~ .menu-box {
+    visibility: visible;
+    right: 0;
+}
+
+.menu-box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 550px;
+    height: 100vh;
+
+    margin: 0;
+    padding: 15px 0;
+    color: white;
+    list-style: none;
+    background: #02897A;
+    backdrop-filter: blur(10px);
+    transition-duration: .5s;
+}
+
+.menu-item a {
+    display: block;
+    padding: 12px 24px;
+
+    font-family: "Montserrat-Bold";
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.67px;
+    font-size: 17px;
+
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-item:hover {
+    background-color: #252525;
+    color: #000;
+}
+
+.menu-item:hover a {
+    color: #fff;
+}
+
+/*media end*/
+
 /*header start*/
 #header {
     padding: 25px 0;
