@@ -81,7 +81,7 @@ body {
     visibility: hidden;
     top: 0;
     right: -100%;
-    width: 550px;
+    width: 250px;
     height: 100vh;
 
     margin: 0;
@@ -97,7 +97,6 @@ body {
     display: block;
     padding: 12px 24px;
 
-    font-family: "Montserrat-Bold";
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.67px;
