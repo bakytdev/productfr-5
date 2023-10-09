@@ -60,35 +60,87 @@
 
 @media (max-width: 992px) {
     .header-nav a,
-    .header-btn
-    {
+    .header-btn-one,
+    .header-btn-two,
+    .header-btn-three {
         display: none;
     }
 
-    #table{
+    #table {
         padding: 0;
     }
 
-    .easy-general{
+    .easy-general {
         flex-wrap: wrap;
     }
 
-    .easy-block{
+    .easy-block {
         width: 90%;
     }
 
-    #easy{
+    #easy {
         height: 100vh;
     }
 }
 
 @media (max-width: 576px) {
-    .media-img{
+    .media-img {
         width: 90%;
         padding: 10px 0;
     }
 
-    .join-block-text h1{
+    .join-block-text h1 {
         width: 90%;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero-text p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .hero-btn {
+        flex-direction: column;
+    }
+
+    .hero-btn a {
+        padding: 10px 0 0 0;
+    }
+
+    .management-text p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .support-text p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .support-text div h6 {
+        width: 90%;
+    }
+
+    .for-text p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .easy-block {
+        margin: 0 auto;
+    }
+
+    .media {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .hero-text h1 {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 35px;
     }
 }
